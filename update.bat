@@ -54,8 +54,7 @@ catch {
 Remove-Item temp -Recurse -Force
 Write-Host "`nDownloaded successfully"
 
-Write-Host "`nUpdating Spicetify"
-spicetify upgrade
+Write-Host "`nRe-aplicando configuracion de Spicetify"
 spicetify backup apply
 
-Write-Host "`nUpdated theme successfully"
+Write-Host "`n¡Tema actualizado con exito!"
