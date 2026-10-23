@@ -62,13 +62,13 @@
   display: none !important
 }
 
-/* Ocultar aviso de nueva versión en Acerca de Spotify */
-main.desktopmodals-aboutSpotifyModal-content
-    > div:has(> button) {
+/* Oculta el botón de añadir a la biblioteca (menú experimental) */
+li:has(button[menuaction="add-to-library"]) {
     display: none !important;
 }
 
-/* Oculta el botón de añadir a la biblioteca (menú experimental) */
-li:has(button[menuaction="add-to-library"]) {
+/* Ocultar aviso de nueva versión en Acerca de Spotify */
+main.desktopmodals-aboutSpotifyModal-content
+    > div:has(> button) {
     display: none !important;
 }
