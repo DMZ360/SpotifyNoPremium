@@ -67,3 +67,8 @@ main.desktopmodals-aboutSpotifyModal-content
     > div:has(> button) {
     display: none !important;
 }
+
+/* Oculta el botón de añadir a la biblioteca (menú experimental) */
+li:has(button[menuaction="add-to-library"]) {
+    display: none !important;
+}
