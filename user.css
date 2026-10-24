@@ -62,9 +62,8 @@
   display: none !important
 }
 
-/* Ocultar aviso de nueva versión en Acerca de Spotify */
-main.desktopmodals-aboutSpotifyModal-content
-    > div:has(> button) {
+/* Oculta el aviso de nueva versión y el botón de descarga */
+.desktopmodals-aboutSpotifyModal-content > div:has(button.hbpwhf54ljdKrhNTq4mA) {
     display: none !important;
 }
 
