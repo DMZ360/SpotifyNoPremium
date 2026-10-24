@@ -73,7 +73,7 @@ li:has(button[menuaction="add-to-library"]) {
     display: none !important;
 }
 
-/* Oculta la opción de actualizar Spotify */
-li:has(button:is(:has-text("Actualizar Spotify ahora"), [aria-label*="Actualizar"])) {
+/* Oculta el botón de actualización detectando el punto de notificación interno */
+button.main-contextMenu-menuItemButton:has(.main-userWidget-notificationDot) {
     display: none !important;
 }
