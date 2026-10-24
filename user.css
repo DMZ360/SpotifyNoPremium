@@ -72,7 +72,12 @@ li:has(button[menuaction="add-to-library"]) {
     display: none !important;
 }
 
-/* Oculta el botón de actualización detectando el punto de notificación interno */
-button.main-contextMenu-menuItemButton:has(.main-userWidget-notificationDot) {
+/* Oculta el botón "Actualizar Spotify ahora" */
+button.main-contextMenu-menuItemButton:has(svg.main-userWidget-notificationDot) {
+    display: none !important;
+}
+
+/* Oculta el punto azul de notificación */
+svg.main-userWidget-notificationDot {
     display: none !important;
 }
