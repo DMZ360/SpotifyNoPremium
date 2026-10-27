@@ -67,6 +67,11 @@
     display: none !important;
 }
 
+/* Oculta únicamente el botón de Update Spicetify */
+button[aria-label="Update Spicetify"] {
+    display: none !important;
+}
+
 /* Oculta el botón de añadir a la biblioteca (menú experimental) */
 li:has(button[menuaction="add-to-library"]) {
     display: none !important;
